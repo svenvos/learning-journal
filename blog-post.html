@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d8212502a8.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/blog-post.css">
+    <title>My Learning Journal</title>
+</head>
+<body>
+    <header class="nav-container">
+        <nav>
+            <a href="/index.html" class="logo">
+                <img src="/images/logo.png" alt="Logo icon">
+                <p class="font-weight-900">My Learning Journal</p>
+            </a>
+            <ul class="links-container" id="links-container">
+                <li>
+                    <a href="/about-me.html">About me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-article-container" id="main-article-container"></div>
+        <h2 class="recent-posts font-weight-900">Recent posts</h2>
+        <div class="articles-container" id="articles-container"></div>
+    </main>
+    <footer>
+        <h3 class="font-weight-900">My Learning Journal</h3>
+        <p>Copyright &copy;<span id="copyright-year" class="white-text"></span></p>
+    </footer>
+    <script src="/scripts/blog-post.js" type="module"></script>
+    <script src="/scripts/app.js" type="module"></script>
+</body>
+</html>

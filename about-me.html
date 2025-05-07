@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d8212502a8.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/about-me.css">
+    <title>My Learning Journal</title>
+</head>
+<body>
+    <header class="nav-container">
+        <nav>
+            <a href="/index.html" class="logo">
+                <img src="/images/logo.png" alt="Logo icon">
+                <p class="font-weight-900">My Learning Journal</p>
+            </a>
+            <ul class="links-container" id="links-container">
+                <li>
+                    <a href="/about-me.html">About me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="about-me">
+            <img class="about-me-img" src="/images/me.png" alt="Me, Sven Vos, smiling with a sunset behind me.">
+            <div class="about-me-textbox-container">
+                <h1 class="font-weight-900">Hi there! My name is Sven and welcome to my learning journal.</h1>
+                <p>After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+            </div>
+        </div>
+        <div class="about-me-article-text">
+            <h3 class="font-weight-900">How I stay committed to learning</h3>
+            <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>   
+            <p>While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p>
+            <h3 class="font-weight-900">How I got started</h3>
+            <p>I started simple and gradually grew my learning journal site. I would take notes about what I was learning. After each learning session, I'd use my notes to not only reflect on what I learned but also write short summaries of what I learned using my own words.</p>
+            <p>That helped me grok what I was learning, and I realized that posting my learning summaries was also helping others learn and stay motivated.</p>
+        </div>
+        <h2 class="recent-posts font-weight-900">Recent posts</h2>
+        <div class="articles-container" id="articles-container"></div>
+    </main>
+    <footer>
+        <h3 class="font-weight-900">My Learning Journal</h3>
+        <p>Copyright &copy;<span id="copyright-year" class="white-text"></span></p>
+    </footer>
+    <script src="/scripts/about-me.js" type="module"></script>
+    <script src="/scripts/app.js" type="module"></script>
+</body>
+</html>
