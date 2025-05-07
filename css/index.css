@@ -1,0 +1,52 @@
+/* Typography */
+h1 {
+    line-height: 1em;
+}
+
+/* Layout */
+.featured-article {
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.featured-article-textbox-container {
+    padding: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.5em;
+}
+
+.featured-article-textbox-container > * {
+    color: #fff;
+}
+
+.view-more-btn-container {
+    margin-bottom: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.view-more-btn {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-size: inherit;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* Media screens */
+@media (min-width: 768px) {
+    .featured-article {
+        height: 92vh;
+        background-position: initial;
+    }
+
+    .featured-article-textbox-container {
+        max-width: 750px;
+        padding: 3em;
+    }
+}

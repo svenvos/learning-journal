@@ -1,0 +1,62 @@
+* {
+    color: #151515;
+}
+
+/* Layout */
+main {
+    margin-top: 2em;
+    padding: 0 1.25em;
+}
+
+.main-article-container {
+    margin-bottom: 3.125em;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25em;
+}
+
+.main-article-container header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-article-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.recent-posts {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.articles-container {
+    margin: 1.5em 0 3.25em;
+    padding: 0;
+}
+
+/* Media screens */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    main {
+        padding: 0 3em;
+    }
+
+    .main-article-container {
+        margin: 4.5em 0;
+    }
+
+    .main-article-container header, .main-article-container div {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .main-article-container h3, .recent-posts {
+        font-size: 1.5rem;
+    }
+}
